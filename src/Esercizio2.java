@@ -113,7 +113,7 @@ public class Esercizio2 extends JFrame {
 					scrittore.write(textField1.getText());
 					scrittore.write("   " + textField2.getText()); //scrittore.append(textField2.getText());
 					scrittore.write("   " + comboBox.getSelectedItem().toString());  //scrivere ciò che è stato selezionato
-
+					
 					if(radioButton1.isSelected())  //controllo quale redioButton è stato selezionato, e lo scrivo sul file 
 					{
 						scrittore.write("   " + radioButton1.getText());
