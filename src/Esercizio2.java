@@ -29,11 +29,6 @@ public class Esercizio2 extends JFrame {
 		add(label1, cc.xy(1, 1));
 		
 		JLabel label2 = new JLabel("Come stai?");
-		
-		
-		
-		
-		
 		add(label2, cc.xy(1, 3));
 		
 		JLabel label3 = new JLabel("In quale paese vivi?");
